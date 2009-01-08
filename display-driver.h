@@ -1,0 +1,11 @@
+#ifndef DISPLAY_DRIVER_HEADER_ASDFKLJASOF8UW30TY8380Y34089U04U3HG904UYG0U34
+#define DISPLAY_DRIVER_HEADER_ASDFKLJASOF8UW30TY8380Y34089U04U3HG904UYG0U34
+
+void display_set_frame_buffer(uint8_t *fb);
+void display_show();
+extern uint8_t display_frame_buffer[8];
+
+#define PLOT(x,y) {display_frame_buffer[(y)]|=(1<<(x));}
+
+#endif/*DISPLAY_DRIVER_HEADER_ASDFKLJASOF8UW30TY8380Y34089U04U3HG904UYG0U34*/
+

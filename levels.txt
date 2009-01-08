@@ -1,0 +1,41 @@
+BEGIN
+
+ Vxxxxx
+ 
+BEGIN
+
+
+  xxxxV
+  x  x
+  x  x
+  xxxx
+
+
+BEGIN
+V xxxxxx
+x x    x
+x x xx x
+x x xx x
+x x  x x
+x xxxx x
+x      x
+xxxxxxxx
+BEGIN
+ xxxxxx 
+xxxxxxxx
+xx    xx
+xx    xx
+xx    xx
+xx    xx
+xxxxxxxx
+ xxxxxxV
+BEGIN
+xxxxxxxx
+  xxxxxx
+  xxxxx 
+   xxxx 
+   xxx  
+    xx  
+    x   
+    V   
+END

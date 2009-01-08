@@ -1,0 +1,25 @@
+This game is very simple, and comes with a tool for building your own 
+levels in a text editor. Step on lights to turn them off: that's the 
+entire game. Play with an SNES controller. The display is intended to be 
+a very small (8x8) matrix of LEDs driven by 16 pins (8 anodes and 8 
+cathodes.) The program model is very rudimentary: no timing functions of 
+the chip are even used. Still, if you are new to microcontroller 
+programming, maybe this would be a fun place to start. I run this game 
+on an ATMega32 at 1MHz using the internal oscillator, although I'm sure 
+other hardware configurations can be made to run the code. Personally I
+use avr-gcc, avr-libc, and avrdude, but make substitutions as you see fit.
+
+Some practical notes: The default configuration places the LED display 
+anodes and cathodes on ports A and C respectively NOT because the 
+letters are intuitive, but because they are on the same side of the 
+ATMega32 (in DIP form factor) and because all eight anode pins and all 
+eight cathode pins are all together, thus making it easier to work with.
+
+The program currently disables JTAG to free up four of the I/O pins.
+
+If there are any useful parts of this program, it might be the SNES 
+controller bus driver code, or the display driver code, to serve as 
+examples.
+
+Hope somebody out there finds the code to be an amusing place to start 
+programming AVR amusements!
